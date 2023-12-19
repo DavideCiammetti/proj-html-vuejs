@@ -7,7 +7,7 @@
 
 <template>
     <div class="logo-container">
-        <img src="../../../assets/img/logo/MasterStudy_logo.svg" alt="aaa">
+        <img src="../../../../assets/img/logo/MasterStudy_logo.svg" alt="logo.img">
     </div>
 </template>
 
