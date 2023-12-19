@@ -15,6 +15,7 @@ import Navbar from './ElementiHeader/Navbar.vue';
 
 <template>
     <header id="header">
+        <!-- select per scegliere la lingua  -->
         <LanguageChoice></LanguageChoice>
         <Navbar></Navbar>
     </header>

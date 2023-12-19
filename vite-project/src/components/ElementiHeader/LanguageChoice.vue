@@ -16,6 +16,7 @@ import { store } from '../../store';
 <template>
     <div>
         <select name="language" id="languages" class="select-lang">
+            <!-- ciclo for che prende in store elementi header -->
             <option v-for="languages in this.store.headerDataConfig.language" :value="languages" class="option-lang"><a href="#">{{languages}}</a></option>
         </select>
     </div>

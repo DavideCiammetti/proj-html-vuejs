@@ -23,11 +23,14 @@ import { store } from '../../store';
     <div class="nav-container">
        <nav class="navbar">
             <ul>
+                <!-- prendo doppio button dal componente ButtonNav.vue -->
                 <ButtonNav class="over-zoom"></ButtonNav>
                 <ButtonNav class="over-add"></ButtonNav>
+                <!-- ciclo for per prendere gli elementi del menu -->
                 <li v-for="items in this.store.headerDataConfig.itemsMenu" class="menu-list" ><a href="#">{{ items }}</a></li>
             </ul>
        </nav>
+       <!-- icone social -->
        <SocialListNav></SocialListNav>
     </div>
 </template>
@@ -49,6 +52,7 @@ import { store } from '../../store';
                margin-right: 1.875rem; 
             }
     }
+    // button 
     .over-add{
         position: absolute;
         right: 16%;
