@@ -1,12 +1,15 @@
 <script>
 import MenuContainer from '../Section1/MainMenuItems/MenuContainer.vue';
 import CentralContainer from './centralComponentsSec1/CentralContainer.vue';
+import Grid from './Grid.vue';
+
 export default{
     name: 'App',
 
     components:{
         MenuContainer,
         CentralContainer,
+        Grid,
     }
 }
 </script>
@@ -15,6 +18,7 @@ export default{
      <section id="section-one">
         <MenuContainer></MenuContainer>
         <CentralContainer></CentralContainer>
+        <Grid></Grid>
     </section>
 </template>
 

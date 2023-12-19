@@ -11,6 +11,7 @@ export default{
                 <!-- moon in screen -->
                 <img src="../../../../../src/assets/img/img-section-1/moon.png" alt="">
             </div>
+            
             <!-- immagine principale -->
             <img src="../../../../../src/assets/img/img-section-1/base.png" alt="pc.img">
             <!-- 3 studenti sul libro -->
@@ -20,8 +21,8 @@ export default{
                 <div class="cloud-img">
                     <img src="../../../../../src/assets/img/img-section-1/bubblespeech.png" alt="">
                 </div>
-
             </div>
+
             <!-- 2 studenti sul libro -->
             <div class="two-students-container">
                <div class="two-students-book">
