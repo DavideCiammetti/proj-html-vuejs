@@ -7,6 +7,7 @@
 
 <template>
     <div class="social-container">
+        <!-- icone social da inserire nella navbar -->
         <ul class="list-container">
             <li class="list mrgin-10">
                 <a href="#"><font-awesome-icon :icon="['fab', 'twitter']" /></a>
