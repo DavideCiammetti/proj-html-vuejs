@@ -1,7 +1,10 @@
 import { createApp } from 'vue'
 import '../style/style.scss'
 import App from './App.vue'
-
+// font open-sans
+import "@fontsource/open-sans"; // Defaults to weight 400
+import "@fontsource/open-sans/400.css"; // Specify weight
+import "@fontsource/open-sans/400-italic.css"; // Specify weight and style
 /* import the fontawesome core */
 import { library } from '@fortawesome/fontawesome-svg-core'
 

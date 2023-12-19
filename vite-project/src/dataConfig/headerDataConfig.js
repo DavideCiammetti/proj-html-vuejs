@@ -1,7 +1,7 @@
 const headerDataConfig = {
         language:{
-                ita: 'it',
-                inglese: 'en',
+            inglese: 'English',
+                ita: 'Italyan',
             },
             
         itemsMenu:{

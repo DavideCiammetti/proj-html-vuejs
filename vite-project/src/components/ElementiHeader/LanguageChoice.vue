@@ -15,11 +15,19 @@ import { store } from '../../store';
 
 <template>
     <div>
-        <select name="language" id="languages">
-            <option v-for="languages in this.store.headerDataConfig.language" :value="languages">{{languages}}</option>
+        <select name="language" id="languages" class="select-lang">
+            <option v-for="languages in this.store.headerDataConfig.language" :value="languages" class="option-lang"><a href="#">{{languages}}</a></option>
         </select>
     </div>
 </template>
    
-<style scoped>
+<style scoped lang="scss">
+@use './../style/partials/_variables.scss' as *;
+
+    .select-lang{
+        font-size: .75rem;
+        border: none;
+        outline: none;
+        color: $col-nav-text;
+    }
 </style>

@@ -8,7 +8,7 @@
 <template>
     <div class="social-container">
         <ul class="list-container">
-            <li class="list">
+            <li class="list mrgin-10">
                 <a href="#"><font-awesome-icon :icon="['fab', 'twitter']" /></a>
             </li>
             <li class="list">
@@ -36,5 +36,21 @@
     </div>
 </template>
    
-<style scoped>
+<style scoped lang="scss">
+@use './../style/partials/_variables.scss' as *;
+
+    .list-container{
+        display: flex;
+        list-style: none;
+            .list{
+                margin-right: .9375rem;
+            }
+            .mrgin-10{
+                margin-left: .6875rem;
+            }
+            a{
+                font-size: .875rem;
+                color: $col-nav-text;
+            }
+    }
 </style>

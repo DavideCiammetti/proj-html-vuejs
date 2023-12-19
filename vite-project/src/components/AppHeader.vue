@@ -14,9 +14,19 @@ import Navbar from './ElementiHeader/Navbar.vue';
 </script>
 
 <template>
-    <LanguageChoice></LanguageChoice>
-    <Navbar></Navbar>
+    <header id="header">
+        <LanguageChoice></LanguageChoice>
+        <Navbar></Navbar>
+    </header>
 </template>
    
-<style scoped>
+<style scoped lang="scss">
+@use './../style/partials/_variables.scss' as *;
+
+    #header{
+        display: flex;
+        justify-content: space-around;
+        border-bottom: 1px solid #e2e2e2;
+        padding: 15px;
+    }
 </style>
