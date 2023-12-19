@@ -6,6 +6,7 @@
 </script>
 
 <template>
+     main
 </template>
 
 <style scoped>
