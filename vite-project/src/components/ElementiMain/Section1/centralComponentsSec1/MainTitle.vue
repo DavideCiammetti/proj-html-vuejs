@@ -14,7 +14,7 @@ export default{
             <p>Whit over 1200 courses in 18 subjects, you're guaranteed to <br>find somethig that's right for you</p>
         </div>
         <div class="but-container">
-            <input type="button" class="butt" value="SIGN UP">
+            <input type="button" class="butt" value="JOIN FOR FREE">
         </div>
     </div>
 </template>
@@ -34,7 +34,7 @@ export default{
     .but-container{
         margin-top: 42px;
         .butt{
-        padding: 12px 23px;
+        padding: 14px 23px;
         border: none;
         outline: none;
         background-color: $blue-600-search;
