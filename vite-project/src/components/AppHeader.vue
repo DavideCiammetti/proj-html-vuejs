@@ -1,18 +1,18 @@
 <script>
-import { store } from '../store';
+import LanguageChoice from './ElementiHeader/LanguageChoice.vue'
+
     export default {
         name:' Headers',
-            data(){
-                return{
-                    store,
-                }
+
+            components:{
+                LanguageChoice,
             }
     }
 
 </script>
 
 <template>
-       
+    <LanguageChoice></LanguageChoice>
 </template>
    
 <style scoped>
