@@ -9,7 +9,7 @@
 <template>
     <div class="main-list-container" >
         <ul class="list-login-container">
-            <li class="login-list m-30-r lin-3">
+            <li class="login-list m-30-r lin-3 f-size">
                 <a href="#"><font-awesome-icon :icon="['far', 'user']" /> <span>Login</span></a>
             </li>
             <li class="login-list">
@@ -18,7 +18,7 @@
                     <input type="button" class="butt" value="SIGN UP">
                 </div>
             </li>
-            <li class="login-list m-30-l lin-3">
+            <li class="login-list m-30-l lin-3 f-s-lheight">
                 <a href="#"><font-awesome-icon :icon="['far', 'bookmark']" /></a>
             </li>
         </ul>
@@ -35,7 +35,6 @@
         list-style: none;
             a{
                 color: $blue-300-ico;
-                line-height: 2.3;
             }
     }
     // margin
@@ -44,6 +43,14 @@
     }
     .m-30-l{
         margin-left: 1.875rem;
+    }
+    .f-size{
+        font-size: 13px;
+        line-height: 3;
+    }
+    .f-s-lheight{
+        font-size: 20px;
+        line-height: 2;
     }
 }
 // button

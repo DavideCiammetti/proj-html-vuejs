@@ -62,7 +62,7 @@ export default{
 
                 <div class="info-courses">
                     <p>Photography</p>
-                    <p>5 Courses</p>
+                    <p>4 Courses</p>
                 </div>
         </div>
 

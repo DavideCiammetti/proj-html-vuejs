@@ -1,9 +1,11 @@
 <script>
 import SectionOne from '../components/ElementiMain/Section1/SectionOne.vue';
+import SectionTwo from './ElementiMain/section2/SectionTwo.vue';
    export default {
         name:'main',
           components:{
                SectionOne,
+               SectionTwo,
           }
     }
 
@@ -12,6 +14,7 @@ import SectionOne from '../components/ElementiMain/Section1/SectionOne.vue';
 <template>
     <main>
      <SectionOne></SectionOne>
+     <SectionTwo></SectionTwo>
     </main>
 </template>
 
