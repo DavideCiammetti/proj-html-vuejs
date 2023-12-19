@@ -1,13 +1,7 @@
 <script>
-import { store } from '../../../store';
 
    export default {
         name:'loginElements',
-            data(){
-                return{
-                    store,
-                }
-            },
     }
 
 </script>
@@ -32,8 +26,7 @@ import { store } from '../../../store';
 </template>
 
 <style scoped lang="scss">
-@use '../../../../style/partials/_variables.scss' as *;
-
+@use '../style/partials/_variables.scss' as *;
 .main-list-container{
     display: flex;
     align-items: center;
@@ -58,7 +51,7 @@ import { store } from '../../../store';
         padding: 12px 23px;
         border: none;
         outline: none;
-        background-color:  $blue-600-search;
+        background-color: $blue-600-search;
         border-radius: 35px;
         color: white;
     }

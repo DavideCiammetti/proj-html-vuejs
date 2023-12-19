@@ -14,8 +14,7 @@
 </template>
 
 <style scoped lang="scss">
-@use '../../../../style/partials/_variables.scss' as *;
-
+@use '../style/partials/_variables.scss' as *;
 .categories-container{
     margin-right: .6875rem;
     display: flex;
