@@ -1,16 +1,18 @@
 <script>
-import MenuContainer from './ElementiMain/Sezione1/MenuContainer.vue';
+import SectionOne from '../components/ElementiMain/Section1/SectionOne.vue';
    export default {
         name:'main',
           components:{
-               MenuContainer,
+               SectionOne,
           }
     }
 
 </script>
 
 <template>
-    <MenuContainer></MenuContainer>
+    <main>
+     <SectionOne></SectionOne>
+    </main>
 </template>
 
 <style scoped>
