@@ -1,5 +1,5 @@
 <script>
-import MenuContainer from './MenuContainer.vue';
+import MenuContainer from '../Section1/MainMenuItems/MenuContainer.vue';
 export default{
     name: 'App',
 
