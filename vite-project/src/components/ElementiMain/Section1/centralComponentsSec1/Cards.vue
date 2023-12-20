@@ -77,6 +77,7 @@ export default{
             P{
                 color: #a4aab5;
                 font-size: 14px;
+                line-height: 1.6;
             }
     }
 </style>
