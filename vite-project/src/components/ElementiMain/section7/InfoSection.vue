@@ -32,7 +32,7 @@ export default{
 .info-container{
     padding: 21px 181px;
         .content{
-            width: 60%;
+            width: 33.75rem;
             background-color: $white;
             position: relative;
                 .padd-cont{
