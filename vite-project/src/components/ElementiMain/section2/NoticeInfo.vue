@@ -10,7 +10,7 @@ export default{
             <h2 class="title">Limitless learning, <br> more possibilities</h2>
         </div>
         <div>
-            <p class="f-size">Online courses open the opportunity for learning to<br>
+            <p>Online courses open the opportunity for learning to<br>
                 almost anyone, regardless of their scheduling <br>
                 commitments.
             </p>
@@ -24,20 +24,14 @@ export default{
 <style scoped lang="scss">
 @use '../style/partials/_variables.scss' as *;
 .title-container{
-     
-    position: absolute;
-    top: 14%;
-    left: 21%;
+    margin-left: 17%;
         .title-content{
             margin-bottom: 2.3125rem;
             .title{
                 font-weight: 100;
-                font-size: 2.6vw;
+                font-size: 2.3125rem;
                 color: #273044;
             }
-        }
-        .f-size{
-            font-size: 1.15vw;
         }
     .but-container{
         margin-top: 2.625rem;

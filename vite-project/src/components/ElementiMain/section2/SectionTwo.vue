@@ -14,13 +14,16 @@ export default{
 <template>
     <section id="section-two">
         <NoticeInfo></NoticeInfo>
-        <immageBg></immageBg>
     </section>
 </template>
 
 <style scoped>
     #section-two{
-        position: relative;
-        margin-top: 150px;
+        background: url("../../../../../src/assets/img/img-section-2/Untitled-1-1-1-1-1.png");
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 6vw;
+        margin: 150px 0 110px 0;
     }
 </style>
