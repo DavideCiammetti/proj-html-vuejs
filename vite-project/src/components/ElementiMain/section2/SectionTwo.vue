@@ -1,11 +1,9 @@
 <script>
-import immageBg from './immageBg.vue';
 import NoticeInfo from './NoticeInfo.vue';
 
 export default{
     name: 'SectionTwo',
         components:{
-            immageBg,
             NoticeInfo,
         }
 }
