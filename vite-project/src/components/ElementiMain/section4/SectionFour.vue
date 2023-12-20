@@ -1,12 +1,14 @@
 <script>
 import TitleSectionFour from './TitleSectionFour.vue';
 import Statistics from './Statistics.vue';
+import SubscribeComponent from './SubscribeComponent.vue'
 
 export default{
     name: 'SectionFour',
         components:{
             TitleSectionFour,
             Statistics,
+            SubscribeComponent,
         }
 }
 </script>
@@ -17,6 +19,7 @@ export default{
        <div class="info-container">
             <Statistics></Statistics>
        </div>
+       <SubscribeComponent></SubscribeComponent>
     </section>
 </template>
 
@@ -26,7 +29,6 @@ export default{
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    margin-bottom: 200px;
     background-color: #f0f4fa;
     height: 22vw;
 }

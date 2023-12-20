@@ -12,16 +12,16 @@ import Categories from './Categories.vue';
 <template>
     <Categories></Categories>
     <div class="main-search-container">
-       <div class="search-container">
+        <div class="search-container">
             <label for="serach">Search Courses</label>
             <input type="search" id="n-search" name="newSeacrh"  placeholder="Search Courses" class="search-input">
-       </div>
+        </div>
         <div>
             <div class="ico-search-container">
-           <span class="ico-search">
-                <font-awesome-icon :icon="['fas', 'magnifying-glass']" class="ico"/>
-           </span>
-        </div>
+                <span class="ico-search">
+                    <font-awesome-icon :icon="['fas', 'magnifying-glass']" class="ico"/>
+                </span>
+            </div>
         </div>
     </div>
 </template>
