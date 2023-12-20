@@ -29,16 +29,17 @@ export default{
 </template>
 
 <style scoped lang="scss">
+@use '../style/partials/_variables.scss' as *;
     .statistic-container{
         display: flex;
         justify-content: center;
             h4{
                 font-weight: 100;
                 font-size: 4.4vw;
-                color: #273044;
+                color: $title-bg;
             }
             p{
-                color: #273044;
+                color: $title-bg;
                 font-size: 1.2vw;
             }
             .p-27{
@@ -48,11 +49,11 @@ export default{
                 padding-left: 27px;
             }
             .border-col{
-                border-left: 1px solid #dddddd;
-                border-right: 1px solid #dddddd;
+                border-left: 1px solid $border-col;
+                border-right: 1px solid $border-col;
             }
             .border-col-r{
-                border-right: 1px solid #dddddd;
+                border-right: 1px solid $border-col;
             }
     }
 </style>

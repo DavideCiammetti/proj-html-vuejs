@@ -56,6 +56,7 @@ export default{
 </template>
 
 <style scoped lang="scss">
+@use '../style/partials/_variables.scss' as *;
     .main-cards-container{
         display: flex;
         margin-top: 76px;
@@ -63,7 +64,7 @@ export default{
                 background-color: #f2f6fb;
                 padding: 30px;
                     .ico-card{
-                        color: #195ec8;
+                        color: $blue-600-search;
                         font-size: 45px;
                     }
                     .card-title{

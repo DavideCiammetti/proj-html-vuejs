@@ -41,7 +41,7 @@ export default{
         outline: none;
         background-color: $blue-600-search;
         border-radius: 2.1875rem;
-        color: white;
+        color: $white;
     }
     }
 }

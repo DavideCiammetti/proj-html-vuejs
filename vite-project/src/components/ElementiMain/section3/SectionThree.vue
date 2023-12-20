@@ -19,8 +19,11 @@ import DropRightMenu from './DropRightMenu.vue';
         <div>
             <h3>Recent courses</h3>
         </div>
+        <!-- lista delle materie  -->
         <MatrialsList></MatrialsList>
+         <!-- griglia delle materie  -->
         <MaterialsGrid></MaterialsGrid>
+        <!-- drop-right menu -->
         <DropRightMenu></DropRightMenu>
         <div class="but-container">
             <input type="button" class="butt" value="SHOW ALL">
@@ -38,6 +41,7 @@ import DropRightMenu from './DropRightMenu.vue';
             h3{
                 font-size: 2.8125rem;
                 font-weight: 100;
+                color: $title-bg;
             }
             .but-container{
                 margin: 80px 0 109px 0;

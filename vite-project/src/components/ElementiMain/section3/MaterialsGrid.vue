@@ -1,7 +1,9 @@
 <script>
+// button over image 
 import RedButton from '../section3/3ButtonTypes/RedButton.vue';
 import GreenButton from '../section3/3ButtonTypes/GreenButton.vue';
 import YellowButton from '../section3/3ButtonTypes/YellowButton.vue';
+// band over image 
 import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
    export default {
         name:'MaterialsGrid',
@@ -19,9 +21,12 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
     <div class="main-grid-container">
         <!-- 1 -->
         <div class="grid-item">
+            <!-- img -->
             <div>
                 <img src="../../../../../src/assets/img/img-section-3-5/photo-1461749280684-dccba630e2f6-272x161.jpeg" alt="">
             </div>
+            <!-- img -->
+            <!-- info -->
            <div>
                 <p class="type">Apache ></p>
                 <h5>Web Coding and Apache <br> Basics</h5>
@@ -33,14 +38,21 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
                     </div>
                 </div>
             </div>
+            <!-- info -->
         </div>
+
          <!-- 2 -->
         <div class="grid-item button-relative">
+            <!-- img -->
             <div>
+                 <!-- button -->
                 <YellowBandOverImg></YellowBandOverImg>
                 <GreenButton></GreenButton>
+
                 <img src="../../../../../src/assets/img/img-section-3-5/cat_2-272x161.jpg" alt="">
             </div>
+             <!-- img -->
+              <!-- info -->
             <div class="border-yellow">
                 <p class="type">Art ></p>
                 <h5>Real Things Art Painting by<br>Jason Ni</h5>
@@ -55,13 +67,20 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
                     </div>
                 </div>
            </div>
+            <!-- info -->
         </div>
+
          <!-- 3 -->
         <div class="grid-item button-relative">
+             <!-- img -->
             <div>
+                <!-- button -->
                 <RedButton></RedButton>
+
                 <img src="../../../../../src/assets/img/img-section-3-5/course-preview-272x161.jpg" alt="">
             </div>
+             <!-- img -->
+             <!-- info -->
             <div>
                 <p class="type">Software Developement ></p>
                 <h5>Basics of Masterstudy</h5>
@@ -79,13 +98,18 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
                     </div>
                 </div>
            </div>
+            <!-- info -->
         </div>
+
          <!-- 4 -->
         <div class="grid-item button-relative">
+            <!-- img -->
             <div>
                 <YellowButton></YellowButton>
                 <img src="../../../../../src/assets/img/img-section-3-5/photo-1496307042754-b4aa456c4a2d-272x161.jpeg" alt="">
             </div>
+             <!-- img -->
+              <!-- info -->
             <div>
                 <p class="type">Electronic ></p>
                 <h5>How to be a DJ? Make <br> Electronic Music</h5>
@@ -93,6 +117,7 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
                 <div class="b-top">
                     <div class="d-flex m-l j-b">
                         <div class="d-flex">
+                            <!-- stelle -->
                             <div class="d-flex">
                                 <span class="star-full" v-for="n in 5"><img src="../../../../../src/assets/img/starfull.svg" alt=""></span> 
                             </div>
@@ -105,12 +130,16 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
                     </div>
                 </div>
            </div>
+            <!-- info -->
         </div>
          <!-- 5 -->
         <div class="grid-item">
+            <!-- img -->
             <div>
                 <img src="../../../../../src/assets/img/img-section-3-5/photo-1416339134316-0e91dc9ded92-scaled-272x161.jpeg" alt="">
             </div>
+            <!-- img -->
+             <!-- info -->
             <div>
                 <p class="type">Communication ></p>
                 <h5>Design instrument for<br>Communication</h5>
@@ -119,13 +148,18 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
                         <p class="hour"><font-awesome-icon :icon="['far', 'clock']" /> 6 hours</p>  
                     </div>  
                 </div>
-           </div>
+            </div>
+            <!-- info -->
         </div>
+
          <!-- 6 -->
         <div class="grid-item">
+            <!-- img -->
             <div>
                 <img src="../../../../../src/assets/img/img-section-3-5/cathryn-lavery-67852-unsplash-272x161.jpg" alt="">
             </div>
+            <!-- img -->
+             <!-- info -->
             <div>
                 <p class="type">Art ></p>
                 <h5>Make your Concept Right and<br>Beautiful</h5>
@@ -136,13 +170,18 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
                         <p><strong>$70</strong></p>
                     </div>
                 </div>
-           </div>
+            </div>
+            <!-- info -->
         </div>
+
          <!-- 7 -->
         <div class="grid-item">
+            <!-- img -->
             <div>
                 <img src="../../../../../src/assets/img/img-section-3-5/photo-1475452779376-caebfb988090-272x161.jpeg" alt="">
             </div>
+            <!-- img -->
+             <!-- info -->
             <div>
                 <p class="type">Bicycling ></p>
                 <h5>Road Bike Manual or How to<br>Be a Champion</h5>
@@ -153,13 +192,18 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
                         <p><strong>$20</strong></p>
                     </div>
                 </div>
-           </div>
+            </div>
+            <!-- info -->
         </div>
+
          <!-- 8 -->
         <div class="grid-item">
+             <!-- img -->
             <div>
                 <img src="../../../../../src/assets/img/img-section-3-5/cristian-grecu-762012-unsplash-min-scaled-272x161.jpg" alt="">
             </div>
+            <!-- img -->
+             <!-- info -->
             <div>
                 <p class="type">Documentary ></p>
                 <h5>How to Make Beautiful<br>Landscape photos?</h5>
@@ -170,13 +214,18 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
                         <p><strong>$60</strong></p>
                     </div>
                 </div>
-           </div>
+            </div>
+            <!-- info -->
         </div>
+
          <!-- 9 -->
         <div class="grid-item ">
+            <!-- img -->
             <div>
                 <img src="../../../../../src/assets/img/img-section-3-5/landscape-272x161.jpg" alt="">
             </div>
+            <!-- img -->
+             <!-- info -->
             <div>
                 <p class="type">Art ></p>
                 <h5>Let's paint Van Gogh's<br>Starry Night</h5>
@@ -187,14 +236,21 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
                         <p><strong>$79</strong></p>
                     </div>
                 </div>
-           </div>
+            </div>
+            <!-- info -->
         </div>
+
          <!-- 10 -->
         <div class="grid-item button-relative">
+            <!-- img -->
             <div>
+                <!-- button -->
                 <YellowButton></YellowButton>
+
                 <img src="../../../../../src/assets/img/img-section-3-5/12345-1-272x161.png" alt="">
             </div>
+            <!-- img -->
+             <!-- info -->
             <div>
                 <p class="type">Nvidia ></p>
                 <h5>Nvidia and UE4 Technologies<br>Pratice</h5>
@@ -202,6 +258,7 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
                 <div class="b-top">
                     <div class="d-flex m-l j-b">
                         <div class="d-flex">
+                            <!-- stelle -->
                             <div class="d-flex">
                                 <span class="star-full" v-for="n in 5"><img src="../../../../../src/assets/img/starfull.svg" alt=""></span> 
                             </div>
@@ -213,7 +270,9 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
                     </div>
                 </div>
             </div>
+             <!-- info -->
         </div>
+
          <!-- 11 -->
         <div class="grid-item button-relative">
             <div>
@@ -232,11 +291,15 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
                 </div>
             </div>
         </div>
+
          <!-- 12 -->
         <div class="grid-item">
+            <!-- img -->
             <div>
                 <img src="../../../../../src/assets/img/img-section-3-5/promo_tf-272x161.jpg" alt="">
             </div>
+            <!-- img -->
+            <!-- info -->
             <div>
                 <p class="type">Software Developement ></p>
                 <h5>MasterStudy Mobile LMS App</h5>
@@ -248,7 +311,9 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
                     </div>
                 </div>
             </div>
+            <!-- inf0 -->
         </div>
+
     </div>
 </template>
 
@@ -260,6 +325,7 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
         justify-content: center;
         gap: .625rem;
         margin-top: 3.25rem;
+        // sigoloelemento della griglia 
             .grid-item{
                 width: calc((100% / 6) - 1.25rem);
                 border: 1px solid #e0e0e0;
@@ -268,20 +334,23 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
             img{
                 width: 100%;
             }
+            // stelle
             .star-full img{
                 width: 75%;
             }
     }
-    // stile info sotto foto 
+    // stiele sotto delle informazioni sotto la foto
     .d-flex{
         display: flex;
         align-items: center;
     }
+    // p tag sopra titolo
     .type{
         color: #c9c9c9;
         font-size: .625rem;
         margin: 1.3125rem 0 1.3125rem 1.3125rem;
     }
+    // titolo
     h5{
         font-weight: 500;
         font-size: 12px;
@@ -302,6 +371,7 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
     .b-top{
         padding: 0 1.25rem;
     }
+    // icona orologio
     .hour{
         font-size: .75rem;
         color: #989ca6;

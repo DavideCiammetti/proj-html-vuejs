@@ -49,9 +49,7 @@ export default{
     display: flex;
     justify-content: center;
     padding: 3.8125rem 0;
-    background-color: #4ed7a8;
-    margin-bottom: 8.125rem;
-    // debug
+    background-color: $green-300-bg;
 }
     .main-search-container{
         display: flex;
@@ -65,7 +63,7 @@ export default{
                     padding: 17px 0 14px 13px;
                     border: none;
                     outline: none;
-                    background-color: #f0f2f5;
+                    background-color: $bg-input;
                     width: 20vw;
                 }
             }
@@ -88,6 +86,6 @@ export default{
         margin-bottom: 1.3125rem;
     }
     h5, span, p{
-        color: white;
+        color: $white;
     }
 </style>

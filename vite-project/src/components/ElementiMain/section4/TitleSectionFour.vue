@@ -17,19 +17,20 @@ export default{
 </template>
 
 <style scoped lang="scss">
+@use '../style/partials/_variables.scss' as *;
     .tile-container{
         padding: 100px 0 90px 0;
-        background-color: #f0f4fa;
+        background-color: $bg-input;
         text-align: center;
             h3{
                 font-size: 3.1vw;
                 margin-bottom: 2.75rem;
                 font-weight: 100;
-                color: #273044;
+                color: $title-bg;
             }
             p{
                 font-size: 1.2vw;
-                color: #273044;
+                color: $title-bg;
             }
     }
 </style>

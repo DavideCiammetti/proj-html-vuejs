@@ -56,6 +56,7 @@
             }
     }
 }
+// al click
 .materials-list:active{
     background-color: #f0f4fa;
     padding: 12px;

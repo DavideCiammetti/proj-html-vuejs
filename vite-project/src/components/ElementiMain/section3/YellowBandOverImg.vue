@@ -23,7 +23,8 @@
         transform: rotate(-45deg);
         top: 7%;
         left: -26px;
-        clip-path: polygon(50% -151%, 100% 100%, 0 95%);
+        clip-path: polygon(47% -151%, 100% 100%, 0 95%);
+        
             p{
                 color: white;
                 font-size: 11px;
