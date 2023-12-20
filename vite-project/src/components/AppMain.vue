@@ -5,6 +5,7 @@ import SectionThree from './ElementiMain/section3/SectionThree.vue';
 import SectionFour from './ElementiMain/section4/SectionFour.vue';
 import SectionFive from './ElementiMain/section5/SectionFive.vue';
 import SectionSix from './ElementiMain/section6/SectionSix.vue';
+import SectiotSeven from './ElementiMain/section7/SectiotSeven.vue';
 
    export default {
         name:'main',
@@ -15,6 +16,7 @@ import SectionSix from './ElementiMain/section6/SectionSix.vue';
                SectionFour,
                SectionFive,
                SectionSix,
+               SectiotSeven,
           }
     }
 
@@ -22,12 +24,13 @@ import SectionSix from './ElementiMain/section6/SectionSix.vue';
 
 <template>
     <main>
-     <SectionOne></SectionOne>
-     <SectionTwo></SectionTwo>
-     <SectionThree></SectionThree>
-     <SectionFour></SectionFour>
-     <SectionFive></SectionFive>
-     <SectionSix></SectionSix>
+        <SectionOne></SectionOne>
+        <SectionTwo></SectionTwo>
+        <SectionThree></SectionThree>
+        <SectionFour></SectionFour>
+        <SectionFive></SectionFive>
+        <SectionSix></SectionSix>
+        <SectiotSeven></SectiotSeven>
     </main>
 </template>
 

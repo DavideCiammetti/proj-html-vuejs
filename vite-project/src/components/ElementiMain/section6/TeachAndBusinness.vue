@@ -63,31 +63,31 @@ export default{
     display: flex;
     align-items: center;
         .img-container{
-            padding: 71px 46px 70px 38px;
+            padding: 4.4375rem 2.875rem 4.375rem 2.375rem;
                 img{
                     width: 100%;
                 }
         }
         .info-content{
-            padding-right: 50px;
+            padding-right: 3.125rem;
         }
         p{
-            font-size: 11px;
-            margin: 30px 0 37px 0;
+            font-size: .6875rem;
+            margin: 1.875rem 0 2.3125rem 0;
             line-height: 1.7;
         }
         h4{
-            font-size: 25px;
+            font-size: 1.5625rem;
             font-weight: 100;
         }
         .but-container{
             .butt{
-                padding: 14px 23px;
+                padding: .875rem 1.4375rem;
                 border: none;
                 outline: none;
                 background-color: $blue-600-search;
-                border-radius: 35px;
-                color: white;
+                border-radius: 2.1875rem;
+                color: $white;
             }
         }
 }

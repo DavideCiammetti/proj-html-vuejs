@@ -18,6 +18,6 @@ export default{
 #section-six{
     display: flex;
     justify-content: center;
-    margin-bottom: 109px;
+    margin-bottom: 6.8125rem;
 }
 </style>
