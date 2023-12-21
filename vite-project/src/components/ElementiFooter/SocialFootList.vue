@@ -9,9 +9,9 @@
     <div class="social-container">
         <ul class="list-containet">
             <li class="social-list">
-                <h5>About</h5>
+                <h4>About</h4>
             </li>
-            <li class="social-list">
+            <li class="social-list m-b-t">
                <p>
                 <a href="#" class="link-master">Masterstudy</a> is Education WordPress theme <br>
                 featured by Learning Management System <br>
@@ -35,8 +35,16 @@
     .link-master{
         color: $blue-600-search;
     }
+    .social-list{
+        color: $title-bg;
+    }
+    .m-b-t{
+        margin-top: 38px;
+        margin-bottom: 20px;
+    }
     .ico-col{
         color: $p-color;
+        margin-right: 20px;
     }
     ul{
         list-style: none;

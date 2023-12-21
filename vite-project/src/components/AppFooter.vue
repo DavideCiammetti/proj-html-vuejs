@@ -28,8 +28,8 @@ import BlogList from './ElementiFooter/BlogList.vue';
 <style scoped lang="scss">
 @use './../style/partials/_variables.scss' as *;
 #footer{
-    margin: 40px 0;
     display: flex;
     justify-content: center;
+    padding-top: 72px;
 }
 </style>
