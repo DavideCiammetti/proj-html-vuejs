@@ -22,8 +22,8 @@
         padding: .375rem .5rem;
         border: none;
         outline: none;
-        border-radius: 3px;
+        border-radius: .1875rem;
         color: white;
-        font-size: 10px;
+        font-size: .625rem;
     }
 </style>

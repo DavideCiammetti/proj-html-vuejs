@@ -62,6 +62,7 @@ export default{
     border: 1px solid $brder-color;
     display: flex;
     align-items: center;
+    width: 47%;
         .img-container{
             padding: 4.4375rem 2.875rem 4.375rem 2.375rem;
                 img{

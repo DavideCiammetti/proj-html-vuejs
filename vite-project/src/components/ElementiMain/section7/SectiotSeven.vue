@@ -22,6 +22,8 @@ export default{
     background: url('../../../../../../src/assets/img/img-section-7/brooke-cagle-224821-unsplash-1-1920x700.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 3vw;
+    height: 36vw;
 }
 
 </style>

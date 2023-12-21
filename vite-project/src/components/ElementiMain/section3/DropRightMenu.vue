@@ -34,19 +34,19 @@ export default{
     position: absolute;
     top: 77%;
     right: 0;
-    box-shadow: -1px 3px 6px #d1d1d1;
+    box-shadow: -1px 8px 19px #d1d1d1;
         .list-content{
             list-style: none;
             text-align: center;
         }
         .ico-drop-list{
-            padding-bottom:21px;
-            font-size: 20px;
-            padding-left: 19px;
-            padding-right: 19px;
+            padding-bottom:1.3125rem;
+            font-size: 1.25rem;
+            padding-left: 1.1875rem;
+            padding-right: 1.1875rem;
         }
         .p-15{
-            padding-top: 15px;
+            padding-top: .9375rem;
         }
         a{
             color: #616161;

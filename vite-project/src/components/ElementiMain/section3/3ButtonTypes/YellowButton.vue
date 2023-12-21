@@ -19,12 +19,12 @@
 }
     .yellow-button{
         background-color: #f09b23;
-        padding: 6px 1px;
+        padding: .375rem .0625rem;
         border: none;
         outline: none;
-        border-radius: 3px;
+        border-radius: .1875rem;
         color: white;  
-        font-size: 10px;
+        font-size: .625rem;
 
     }
 </style>

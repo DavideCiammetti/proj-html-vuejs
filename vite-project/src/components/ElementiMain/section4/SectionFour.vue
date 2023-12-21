@@ -27,12 +27,13 @@ export default{
 </template>
 
 <style scoped lang="scss">
+@use '../style/partials/_variables.scss' as *;
 .info-container{
     background: url('./../../../../../src/assets/img/img-section-4/we_proud.png');
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    background-color: #f0f4fa;
+    background-color: $col-bg-sec;
     height: 22vw;
 }
 </style>

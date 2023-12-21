@@ -45,21 +45,21 @@
         margin-left: 1.875rem;
     }
     .f-size{
-        font-size: 13px;
+        font-size: .8125rem;
         line-height: 3;
     }
     .f-s-lheight{
-        font-size: 20px;
+        font-size: 1.25rem;
         line-height: 2;
     }
 }
 // button
 .butt{
-        padding: 12px 23px;
+        padding: .75rem 1.4375rem;
         border: none;
         outline: none;
         background-color: $blue-600-search;
-        border-radius: 35px;
-        color: white;
+        border-radius: 2.1875rem;
+        color: $white;
     }
 </style>

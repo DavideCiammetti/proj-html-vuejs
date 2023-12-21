@@ -23,7 +23,7 @@ export default{
         <!-- 1 -->
             <div class="grid-item">
                 <div>
-                    <img src="../../../../../src/assets/img/img-section-3-5/photo-1461749280684-dccba630e2f6-272x161.jpeg" alt="">
+                    <img src="../../../../../src/assets/img/img-section-3-5/photo-1461749280684-dccba630e2f6-272x161.jpeg" alt="apache.img">
                 </div>
             <div>
                     <p class="type">Apache ></p>
@@ -42,7 +42,7 @@ export default{
                 <div>
                     <YellowBandOverImg></YellowBandOverImg>
                     <GreenButton></GreenButton>
-                    <img src="../../../../../src/assets/img/img-section-3-5/cat_2-272x161.jpg" alt="">
+                    <img src="../../../../../src/assets/img/img-section-3-5/cat_2-272x161.jpg" alt="art.img">
                 </div>
                 <div class="border-yellow">
                     <p class="type">Art ></p>
@@ -63,7 +63,7 @@ export default{
             <div class="grid-item button-relative">
                 <div>
                     <RedButton></RedButton>
-                    <img src="../../../../../src/assets/img/img-section-3-5/course-preview-272x161.jpg" alt="">
+                    <img src="../../../../../src/assets/img/img-section-3-5/course-preview-272x161.jpg" alt="software.img">
                 </div>
                 <div>
                     <p class="type">Software Developement ></p>
@@ -74,7 +74,7 @@ export default{
 
                             <div class="d-flex">
                                 <div class="d-flex">
-                                    <span class="star-full" v-for="n in 5"><img src="../../../../../src/assets/img/starfull.svg" alt=""></span> 
+                                    <span class="star-full" v-for="n in 5"><img src="../../../../../src/assets/img/starfull.svg" alt="stars.img"></span> 
                                 </div>
                                 <p class="five-star">5</p>
                             </div>
@@ -87,7 +87,7 @@ export default{
             <div class="grid-item button-relative">
                 <div>
                     <YellowButton></YellowButton>
-                    <img src="../../../../../src/assets/img/img-section-3-5/photo-1496307042754-b4aa456c4a2d-272x161.jpeg" alt="">
+                    <img src="../../../../../src/assets/img/img-section-3-5/photo-1496307042754-b4aa456c4a2d-272x161.jpeg" alt="electronic.img">
                 </div>
                 <div>
                     <p class="type">Electronic ></p>
@@ -97,7 +97,7 @@ export default{
                         <div class="d-flex m-l j-b">
                             <div class="d-flex">
                                 <div class="d-flex">
-                                    <span class="star-full" v-for="n in 5"><img src="../../../../../src/assets/img/starfull.svg" alt=""></span> 
+                                    <span class="star-full" v-for="n in 5"><img src="../../../../../src/assets/img/starfull.svg" alt="stars.img"></span> 
                                 </div>
                                 <p class="five-star">5</p>
                             </div>
@@ -112,7 +112,7 @@ export default{
             <!-- 5 -->
             <div class="grid-item">
                 <div>
-                    <img src="../../../../../src/assets/img/img-section-3-5/photo-1416339134316-0e91dc9ded92-scaled-272x161.jpeg" alt="">
+                    <img src="../../../../../src/assets/img/img-section-3-5/photo-1416339134316-0e91dc9ded92-scaled-272x161.jpeg" alt="communication">
                 </div>
                 <div>
                     <p class="type">Communication ></p>
@@ -127,7 +127,7 @@ export default{
             <!-- 6 -->
             <div class="grid-item">
                 <div>
-                    <img src="../../../../../src/assets/img/img-section-3-5/cathryn-lavery-67852-unsplash-272x161.jpg" alt="">
+                    <img src="../../../../../src/assets/img/img-section-3-5/cathryn-lavery-67852-unsplash-272x161.jpg" alt="art.img">
                 </div>
                 <div>
                     <p class="type">Art ></p>

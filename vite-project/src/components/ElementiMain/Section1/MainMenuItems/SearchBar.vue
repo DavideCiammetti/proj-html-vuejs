@@ -37,23 +37,23 @@ import Categories from './Categories.vue';
                     display:none;
                 }
                 .search-input{
-                    padding: 15px;
+                    padding: .9375rem;
                     border: none;
                     outline: none;
-                    background-color: #f0f2f5;
+                    background-color: $bg-input;
                     width: 20vw;
                 }
             }
             .ico-search-container{
-                background-color: $blue-600-search;
-                padding: 12.1px 22px;
+                    background-color: $blue-600-search;
+                    padding: .7562rem 1.375rem;
                 .ico-search{
-                position: relative;
-                top: 25%;
-            }
-            .ico{
-                color: white;
-            }
+                    position: relative;
+                    top: 25%;
+                }
+                .ico{
+                    color: $white;
+                }
             }
     }
 </style>

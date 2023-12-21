@@ -72,38 +72,38 @@ export default{
 <style scoped lang="scss">
     .grid-container{
         display: flex;
-    width: 1220px;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
-    margin-top: 110px;
+        width: 76.25rem;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1.875rem;
+        margin-top: 6.875rem;
             //cards 
             .grid-item{
-                width: calc((100% / 3) - 60px);
+                width: calc((100% / 3) - 3.75rem);
                     .info-courses{
                         display: flex;
                         justify-content: space-between;
-                        margin-top: 19px;
+                        margin-top: 1.1875rem;
                     }
                     .m-21{
-                        margin-top: 21px;
+                        margin-top: 1.3125rem;
                     }
                     .info-courses p:last-child{
-                        font-size: 13px;
+                        font-size: .8125rem;
                     }
             }
             //elemento più grande
             .big-item{
-                width: calc((100% / 3) * 2 - 90px);
+                width: calc((100% / 3) * 2 - 5.625rem);
             }
             img{
                 width: 100%;
             }
 
             .img-flex{
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: space-between;
-                }
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
     }
 </style>

@@ -10,7 +10,7 @@ export default{
             <h2 class="title">Limitless learning, <br> more possibilities</h2>
         </div>
         <div>
-            <p>Online courses open the opportunity for learning to<br>
+            <p class="col">Online courses open the opportunity for learning to<br>
                 almost anyone, regardless of their scheduling <br>
                 commitments.
             </p>
@@ -25,12 +25,12 @@ export default{
 @use '../style/partials/_variables.scss' as *;
 .title-container{
     margin-left: 17%;
+    margin-left: 13%;
         .title-content{
             margin-bottom: 2.3125rem;
             .title{
                 font-weight: 100;
                 font-size: 2.3125rem;
-                color: #273044;
             }
         }
     .but-container{
@@ -45,4 +45,7 @@ export default{
     }
     }
 }
+    .col{
+        color: $title-bg;
+    }
 </style>

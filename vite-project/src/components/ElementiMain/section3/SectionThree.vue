@@ -41,17 +41,16 @@ import DropRightMenu from './DropRightMenu.vue';
             h3{
                 font-size: 2.8125rem;
                 font-weight: 100;
-                color: $title-bg;
             }
             .but-container{
-                margin: 80px 0 109px 0;
+                margin: 5rem 0 6.8125rem 0;
                 .butt{
-                padding: 14px 23px;
-                border: none;
-                outline: none;
-                background-color: $blue-600-search;
-                border-radius: 35px;
-                color: white;
+                    padding: .875rem 1.4375rem;
+                    border: none;
+                    outline: none;
+                    background-color: $blue-600-search;
+                    border-radius: 2.1875rem;
+                    color: $white;
                 }
             }
     }

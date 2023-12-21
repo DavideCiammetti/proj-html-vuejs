@@ -59,24 +59,24 @@ export default{
 @use '../style/partials/_variables.scss' as *;
     .main-cards-container{
         display: flex;
-        margin-top: 76px;
+        margin-top: 4.75rem;
             .card-container{
                 background-color: #f2f6fb;
                 padding: 30px;
                     .ico-card{
                         color: $blue-600-search;
-                        font-size: 45px;
+                        font-size: 2.8125rem;
                     }
                     .card-title{
-                        margin: 30px 0;
+                        margin: 1.875rem 0;
                     }
             }
             .m-r-l{
-                margin: 0 30px;
+                margin: 0 1.875rem;
             }
             P{
                 color: #a4aab5;
-                font-size: 14px;
+                font-size: .875rem;
                 line-height: 1.6;
             }
     }

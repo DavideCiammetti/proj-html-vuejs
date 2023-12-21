@@ -22,24 +22,23 @@ export default{
 <style scoped lang="scss">
 @use '../style/partials/_variables.scss' as *;
 .title-container{
-    margin-right: 57px;
+    margin-right: 3.5625rem;
         .title-content{
             margin-bottom: 2.3125rem;
             .title{
                 font-weight: 100;
                 font-size: 2.875rem;
-                color: #273044;
             }
         }
     .but-container{
-        margin-top: 42px;
+        margin-top: 2.625rem;
         .butt{
-        padding: 14px 23px;
+        padding: .875rem 1.4375rem;
         border: none;
         outline: none;
         background-color: $blue-600-search;
-        border-radius: 35px;
-        color: white;
+        border-radius: 2.1875rem;
+        color: $white;
     }
     }
 }

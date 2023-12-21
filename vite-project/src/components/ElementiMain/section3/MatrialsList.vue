@@ -42,7 +42,7 @@
         display: flex;
         list-style: none;
         .for-test{
-            background-color: #f0f4fa;
+            background-color: $col-bg-sec;
             padding: 12px;
             border-radius: 30px;
         }
@@ -58,9 +58,9 @@
 }
 // al click
 .materials-list:active{
-    background-color: #f0f4fa;
-    padding: 12px;
-    border-radius: 30px;
+    background-color: $col-bg-sec;
+    padding: .75rem;
+    border-radius: 1.875rem;
 }
 
 </style>

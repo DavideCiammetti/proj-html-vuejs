@@ -23,7 +23,7 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
         <div class="grid-item">
             <!-- img -->
             <div>
-                <img src="../../../../../src/assets/img/img-section-3-5/photo-1461749280684-dccba630e2f6-272x161.jpeg" alt="">
+                <img src="../../../../../src/assets/img/img-section-3-5/photo-1461749280684-dccba630e2f6-272x161.jpeg" alt="apache.img">
             </div>
             <!-- img -->
             <!-- info -->
@@ -32,9 +32,9 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
                 <h5>Web Coding and Apache <br> Basics</h5>
 
                 <div class="b-top">
-                    <div class="hour-money-container d-flex m-l j-b">
-                        <p class="hour"><font-awesome-icon :icon="['far', 'clock']" /> 6 hours</p> 
-                        <p><strong>Free</strong></p>
+                    <div class="hour-money-container d-flex m-b j-b">
+                        <p class="hour"><font-awesome-icon :icon="['far', 'clock']" class="ico-margin"/> 6 hours</p> 
+                        <p class="col"><strong>Free</strong></p>
                     </div>
                 </div>
             </div>
@@ -49,7 +49,7 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
                 <YellowBandOverImg></YellowBandOverImg>
                 <GreenButton></GreenButton>
 
-                <img src="../../../../../src/assets/img/img-section-3-5/cat_2-272x161.jpg" alt="">
+                <img src="../../../../../src/assets/img/img-section-3-5/cat_2-272x161.jpg" alt="art.img">
             </div>
              <!-- img -->
               <!-- info -->
@@ -58,11 +58,11 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
                 <h5>Real Things Art Painting by<br>Jason Ni</h5>
 
                 <div class="b-top">
-                    <div class="d-flex m-l j-b">
-                            <p  class="hour"><font-awesome-icon :icon="['far', 'clock']"/> 6 hours</p> 
+                    <div class="d-flex m-b j-b">
+                            <p  class="hour"><font-awesome-icon :icon="['far', 'clock']" class="ico-margin"/> 6 hours</p> 
                         <div>
                             <p class="barred-price">$60</p>
-                            <p><strong>$45</strong></p>
+                            <p class="col"><strong>$45</strong></p>
                         </div>
                     </div>
                 </div>
@@ -77,7 +77,7 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
                 <!-- button -->
                 <RedButton></RedButton>
 
-                <img src="../../../../../src/assets/img/img-section-3-5/course-preview-272x161.jpg" alt="">
+                <img src="../../../../../src/assets/img/img-section-3-5/course-preview-272x161.jpg" alt="software.img">
             </div>
              <!-- img -->
              <!-- info -->
@@ -86,15 +86,15 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
                 <h5>Basics of Masterstudy</h5>
 
                 <div class="b-top">
-                    <div class="d-flex m-l j-b">
+                    <div class="d-flex m-b j-b">
 
                         <div class="d-flex">
                             <div class="d-flex">
-                                <span class="star-full" v-for="n in 5"><img src="../../../../../src/assets/img/starfull.svg" alt=""></span> 
+                                <span class="star-full" v-for="n in 5"><img src="../../../../../src/assets/img/starfull.svg" alt="star.img"></span> 
                             </div>
                             <p class="five-star">5</p>
                         </div>
-                            <p><strong>Free</strong></p>
+                            <p class="col"><strong>Free</strong></p>
                     </div>
                 </div>
            </div>
@@ -106,7 +106,7 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
             <!-- img -->
             <div>
                 <YellowButton></YellowButton>
-                <img src="../../../../../src/assets/img/img-section-3-5/photo-1496307042754-b4aa456c4a2d-272x161.jpeg" alt="">
+                <img src="../../../../../src/assets/img/img-section-3-5/photo-1496307042754-b4aa456c4a2d-272x161.jpeg" alt="electronic.img">
             </div>
              <!-- img -->
               <!-- info -->
@@ -115,17 +115,17 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
                 <h5>How to be a DJ? Make <br> Electronic Music</h5>
 
                 <div class="b-top">
-                    <div class="d-flex m-l j-b">
+                    <div class="d-flex m-b j-b">
                         <div class="d-flex">
                             <!-- stelle -->
                             <div class="d-flex">
-                                <span class="star-full" v-for="n in 5"><img src="../../../../../src/assets/img/starfull.svg" alt=""></span> 
+                                <span class="star-full" v-for="n in 5"><img src="../../../../../src/assets/img/starfull.svg" alt="star.img"></span> 
                             </div>
                             <p class="five-star">5</p>
                         </div>
                         <div>
                             <p class="barred-price">$59</p>
-                            <p><strong>$49</strong></p>
+                            <p class="col"><strong>$49</strong></p>
                         </div>
                     </div>
                 </div>
@@ -136,7 +136,7 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
         <div class="grid-item">
             <!-- img -->
             <div>
-                <img src="../../../../../src/assets/img/img-section-3-5/photo-1416339134316-0e91dc9ded92-scaled-272x161.jpeg" alt="">
+                <img src="../../../../../src/assets/img/img-section-3-5/photo-1416339134316-0e91dc9ded92-scaled-272x161.jpeg" alt="communication.img">
             </div>
             <!-- img -->
              <!-- info -->
@@ -145,7 +145,7 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
                 <h5>Design instrument for<br>Communication</h5>
                 <div class="b-top">
                     <div  class=" b-g">
-                        <p class="hour"><font-awesome-icon :icon="['far', 'clock']" /> 6 hours</p>  
+                        <p class="hour"><font-awesome-icon :icon="['far', 'clock']" class="ico-margin"/> 6 hours</p>  
                     </div>  
                 </div>
             </div>
@@ -156,7 +156,7 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
         <div class="grid-item">
             <!-- img -->
             <div>
-                <img src="../../../../../src/assets/img/img-section-3-5/cathryn-lavery-67852-unsplash-272x161.jpg" alt="">
+                <img src="../../../../../src/assets/img/img-section-3-5/cathryn-lavery-67852-unsplash-272x161.jpg" alt="art.img">
             </div>
             <!-- img -->
              <!-- info -->
@@ -165,9 +165,9 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
                 <h5>Make your Concept Right and<br>Beautiful</h5>
 
                 <div class="b-top">
-                    <div class="d-flex m-l j-b">
-                        <p class="hour"><font-awesome-icon :icon="['far', 'clock']" /> 6 hours</p>  
-                        <p><strong>$70</strong></p>
+                    <div class="d-flex m-b j-b">
+                        <p class="hour"><font-awesome-icon :icon="['far', 'clock']" class="ico-margin"/> 6 hours</p>  
+                        <p class="col"><strong>$70</strong></p>
                     </div>
                 </div>
             </div>
@@ -178,7 +178,7 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
         <div class="grid-item">
             <!-- img -->
             <div>
-                <img src="../../../../../src/assets/img/img-section-3-5/photo-1475452779376-caebfb988090-272x161.jpeg" alt="">
+                <img src="../../../../../src/assets/img/img-section-3-5/photo-1475452779376-caebfb988090-272x161.jpeg" alt="bici.img">
             </div>
             <!-- img -->
              <!-- info -->
@@ -187,9 +187,9 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
                 <h5>Road Bike Manual or How to<br>Be a Champion</h5>
 
                 <div class="b-top">
-                    <div class="d-flex m-l j-b">
-                        <p class="hour"><font-awesome-icon :icon="['far', 'clock']" /> 6 hours</p>  
-                        <p><strong>$20</strong></p>
+                    <div class="d-flex m-b j-b">
+                        <p class="hour"><font-awesome-icon :icon="['far', 'clock']" class="ico-margin"/> 6 hours</p>  
+                        <p class="col"><strong>$20</strong></p>
                     </div>
                 </div>
             </div>
@@ -200,7 +200,7 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
         <div class="grid-item">
              <!-- img -->
             <div>
-                <img src="../../../../../src/assets/img/img-section-3-5/cristian-grecu-762012-unsplash-min-scaled-272x161.jpg" alt="">
+                <img src="../../../../../src/assets/img/img-section-3-5/cristian-grecu-762012-unsplash-min-scaled-272x161.jpg" alt="documentary.img">
             </div>
             <!-- img -->
              <!-- info -->
@@ -209,9 +209,9 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
                 <h5>How to Make Beautiful<br>Landscape photos?</h5>
 
                 <div class="b-top">
-                    <div class="d-flex m-l j-b">
-                        <p class="hour"><font-awesome-icon :icon="['far', 'clock']" /> 6 hours</p>  
-                        <p><strong>$60</strong></p>
+                    <div class="d-flex m-b j-b">
+                        <p class="hour"><font-awesome-icon :icon="['far', 'clock']" class="ico-margin"/> 6 hours</p>  
+                        <p class="col"><strong>$60</strong></p>
                     </div>
                 </div>
             </div>
@@ -222,7 +222,7 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
         <div class="grid-item ">
             <!-- img -->
             <div>
-                <img src="../../../../../src/assets/img/img-section-3-5/landscape-272x161.jpg" alt="">
+                <img src="../../../../../src/assets/img/img-section-3-5/landscape-272x161.jpg" alt="art.img">
             </div>
             <!-- img -->
              <!-- info -->
@@ -231,9 +231,9 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
                 <h5>Let's paint Van Gogh's<br>Starry Night</h5>
 
                 <div class="b-top">
-                    <div class="d-flex m-l j-b">
-                        <p class="hour"><font-awesome-icon :icon="['far', 'clock']" /> 6 hours</p>  
-                        <p><strong>$79</strong></p>
+                    <div class="d-flex m-b j-b">
+                        <p class="hour"><font-awesome-icon :icon="['far', 'clock']" class="ico-margin"/> 6 hours</p>  
+                        <p class="col"><strong>$79</strong></p>
                     </div>
                 </div>
             </div>
@@ -247,7 +247,7 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
                 <!-- button -->
                 <YellowButton></YellowButton>
 
-                <img src="../../../../../src/assets/img/img-section-3-5/12345-1-272x161.png" alt="">
+                <img src="../../../../../src/assets/img/img-section-3-5/12345-1-272x161.png" alt="nvidia.img">
             </div>
             <!-- img -->
              <!-- info -->
@@ -256,16 +256,16 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
                 <h5>Nvidia and UE4 Technologies<br>Pratice</h5>
 
                 <div class="b-top">
-                    <div class="d-flex m-l j-b">
+                    <div class="d-flex m-b j-b">
                         <div class="d-flex">
                             <!-- stelle -->
                             <div class="d-flex">
-                                <span class="star-full" v-for="n in 5"><img src="../../../../../src/assets/img/starfull.svg" alt=""></span> 
+                                <span class="star-full" v-for="n in 5"><img src="../../../../../src/assets/img/starfull.svg" alt="star.img"></span> 
                             </div>
                             <p class="five-star">5</p>
                         </div>
                         <div class="d-flex margin">
-                            <p><strong>Free</strong></p>
+                            <p class="col"><strong>Free</strong></p>
                         </div>
                     </div>
                 </div>
@@ -277,16 +277,16 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
         <div class="grid-item button-relative">
             <div>
             <YellowButton></YellowButton>
-                <img src="../../../../../src/assets/img/img-section-3-5/jakob-owens-198234-unsplash-min-1-272x161.png" alt="">
+                <img src="../../../../../src/assets/img/img-section-3-5/jakob-owens-198234-unsplash-min-1-272x161.png" alt="art.img">
             </div>
             <div>
                 <p class="type">Art ></p>
                 <h5>How to Work whit Legendary<br>RED camera?</h5>
                 
                 <div class="b-top">
-                    <div class="d-flex m-l j-b">
-                        <p class="hour"><font-awesome-icon :icon="['far', 'clock']" /> 6 hours</p>  
-                        <p><strong>Free</strong></p>
+                    <div class="d-flex m-b j-b">
+                        <p class="hour"><font-awesome-icon :icon="['far', 'clock']" class="ico-margin"/> 6 hours</p>  
+                        <p class="col"><strong>Free</strong></p>
                     </div>
                 </div>
             </div>
@@ -296,7 +296,7 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
         <div class="grid-item">
             <!-- img -->
             <div>
-                <img src="../../../../../src/assets/img/img-section-3-5/promo_tf-272x161.jpg" alt="">
+                <img src="../../../../../src/assets/img/img-section-3-5/promo_tf-272x161.jpg" alt="software.img">
             </div>
             <!-- img -->
             <!-- info -->
@@ -305,9 +305,9 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
                 <h5>MasterStudy Mobile LMS App</h5>
 
                 <div class="b-top">
-                    <div class="d-flex m-l j-b">
-                        <p class="hour"><font-awesome-icon :icon="['far', 'clock']" /> 2 hours</p>  
-                        <p><strong>Free</strong></p>
+                    <div class="d-flex m-b j-b">
+                        <p class="hour"><font-awesome-icon :icon="['far', 'clock']" class="ico-margin"/> 2 hours</p>  
+                        <p class="col"><strong>Free</strong></p>
                     </div>
                 </div>
             </div>
@@ -328,7 +328,7 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
         // sigoloelemento della griglia 
             .grid-item{
                 width: calc((100% / 6) - 1.25rem);
-                border: 1px solid #e0e0e0;
+                border: 1px solid $col-grid;
                 margin-bottom: 3.125rem;
             }
             img{
@@ -356,35 +356,29 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
         font-size: 12px;
         margin: 0 0 1.3125rem 1.3125rem;
     }
-    .m-l{
-       margin: 1.3125rem 0 1.3125rem 0;
+    .col{
+        color: $title-bg;
+        font-size: 13px;
     }
-    .j-b{
-        justify-content: space-between;
-        border-top:1px solid #e0e0e0;
-        padding-top: 1.25rem;
-    }
-    .b-g{
-        border-top:1px solid #e0e0e0;
-        padding-top: 1.25rem;
-    }
-    .b-top{
-        padding: 0 1.25rem;
-    }
+    
     // icona orologio
     .hour{
         font-size: .75rem;
-        color: #989ca6;
+        color: $p-color;
     }
+    .ico-margin{
+        margin-right: 7px;
+    }
+     // icona orologio
     .barred-price{
         text-decoration: line-through;
-        color: #989ca6;
-        font-size: .8125rem;
+        color: $p-color;
+        font-size: .75rem;
         text-align: center;
     }
     .five-star{
         margin-left: .375rem;
-        font-size: 12px;
+        font-size: .75rem;
     }
     // bottoni
     .button-relative{
@@ -393,5 +387,22 @@ import YellowBandOverImg from '../section3/YellowBandOverImg.vue';
     .border-yellow{
         border: 1px solid #f09b23;
         border-top: 1px solid transparent;
+    }
+
+    // utility class
+    .b-g{
+        border-top:1px solid $col-grid;
+        padding-top: 1.25rem;
+    }
+    .b-top{
+        padding: 0 1.25rem;
+    }
+    .m-b{
+       margin-bottom: .625rem;
+    }
+    .j-b{
+        justify-content: space-between;
+        border-top:1px solid $col-grid;
+        padding-top: 1.25rem;
     }
 </style>
