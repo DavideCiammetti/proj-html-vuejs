@@ -100,4 +100,4 @@ divise per utilita di sezione:
 
 ## immagine del progetto eseguito
 
-![src/assets/img/logo/screenshot.png](<src/assets/img/logo/Vite + Vue.png>)
+![src/assets/img/logo/screenshot.png](<src/assets/img/logo/Vite + Vue (1).png>)
