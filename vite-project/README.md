@@ -65,7 +65,7 @@ ho suddiviso il progetto in 3 componenti principali che sono AppHeader, AppMain 
 
 
 ## Gestione dati 
-per la gestione dati ho usato il file **"store.js"** nel quale poi ho collegato altri 2 file archiviati nella directory--> dataConfig in --> src:
+per la gestione dati ho usato il file **"store.js"** cioè un file che può essere usato globalmente nel progetto, nel quale poi ho collegato altri 2 file archiviati nella directory--> dataConfig in --> src:
 
 - dataConfig
     - footerDataConfig.js
@@ -98,6 +98,6 @@ divise per utilita di sezione:
         - img-section-7  ---directory
         - logo ---directory
 
-## immagine del progetto da eseguire
+## immagine del progetto eseguito
 
-![image link](src/assets/img/logo/screenshot.png)
+![src/assets/img/logo/screenshot.png](<src/assets/img/logo/Vite + Vue.png>)
